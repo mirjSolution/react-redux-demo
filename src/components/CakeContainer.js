@@ -3,7 +3,7 @@ import React from 'react';
 function CakeContainer() {
   return (
     <div>
-      <h1>Number of Cakes</h1>
+      <h2>Number of Cakes</h2>
       <button>Buy Cake</button>
     </div>
   );
