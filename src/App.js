@@ -7,6 +7,7 @@ import HookCakeContainer from './components/HookCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
 import NewCakeContainer from './components/NewCakeContainer';
 import ItemContainer from './components/ItemContainer';
+import UserContainer from './components/UserContainer';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
           Sample using reducer with action.payload
         </h2>
         <NewCakeContainer />
+        <h2 style={{ color: 'blue' }}>
+          Fetching data using redux thunk middleware
+        </h2>
+        <UserContainer />
       </div>
     </Provider>
   );
